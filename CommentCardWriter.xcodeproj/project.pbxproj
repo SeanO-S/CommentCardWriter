@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		038A843D27AD4DD60060C8EE /* CommentCardWriterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038A843C27AD4DD60060C8EE /* CommentCardWriterApp.swift */; };
-		038A843F27AD4DD60060C8EE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038A843E27AD4DD60060C8EE /* ContentView.swift */; };
 		038A844127AD4DD80060C8EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 038A844027AD4DD80060C8EE /* Assets.xcassets */; };
 		038A844427AD4DD80060C8EE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 038A844327AD4DD80060C8EE /* Preview Assets.xcassets */; };
 		038A844E27AD4DD80060C8EE /* CommentCardWriterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038A844D27AD4DD80060C8EE /* CommentCardWriterTests.swift */; };
 		038A845827AD4DD80060C8EE /* CommentCardWriterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038A845727AD4DD80060C8EE /* CommentCardWriterUITests.swift */; };
 		038A845A27AD4DD80060C8EE /* CommentCardWriterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038A845927AD4DD80060C8EE /* CommentCardWriterUITestsLaunchTests.swift */; };
+		038A846927AD4E310060C8EE /* SubjectChoiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038A846827AD4E310060C8EE /* SubjectChoiceView.swift */; };
+		038A846B27AD4E500060C8EE /* ChooseSubject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038A846A27AD4E500060C8EE /* ChooseSubject.swift */; };
+		038A846D27AD4E7B0060C8EE /* Subject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038A846C27AD4E7B0060C8EE /* Subject.swift */; };
+		038A846F27AD52D10060C8EE /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038A846E27AD52D10060C8EE /* Student.swift */; };
+		038A847127AD54BB0060C8EE /* SubjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038A847027AD54BB0060C8EE /* SubjectView.swift */; };
+		038A847427AD5ADD0060C8EE /* RootTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038A847327AD5ADD0060C8EE /* RootTabView.swift */; };
+		038A847627AD5B2B0060C8EE /* CommentCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038A847527AD5B2B0060C8EE /* CommentCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +42,6 @@
 /* Begin PBXFileReference section */
 		038A843927AD4DD60060C8EE /* CommentCardWriter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CommentCardWriter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		038A843C27AD4DD60060C8EE /* CommentCardWriterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCardWriterApp.swift; sourceTree = "<group>"; };
-		038A843E27AD4DD60060C8EE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		038A844027AD4DD80060C8EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		038A844327AD4DD80060C8EE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		038A844927AD4DD80060C8EE /* CommentCardWriterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CommentCardWriterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +49,13 @@
 		038A845327AD4DD80060C8EE /* CommentCardWriterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CommentCardWriterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		038A845727AD4DD80060C8EE /* CommentCardWriterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCardWriterUITests.swift; sourceTree = "<group>"; };
 		038A845927AD4DD80060C8EE /* CommentCardWriterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCardWriterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		038A846827AD4E310060C8EE /* SubjectChoiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectChoiceView.swift; sourceTree = "<group>"; };
+		038A846A27AD4E500060C8EE /* ChooseSubject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseSubject.swift; sourceTree = "<group>"; };
+		038A846C27AD4E7B0060C8EE /* Subject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subject.swift; sourceTree = "<group>"; };
+		038A846E27AD52D10060C8EE /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		038A847027AD54BB0060C8EE /* SubjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectView.swift; sourceTree = "<group>"; };
+		038A847327AD5ADD0060C8EE /* RootTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabView.swift; sourceTree = "<group>"; };
+		038A847527AD5B2B0060C8EE /* CommentCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,9 +106,10 @@
 		038A843B27AD4DD60060C8EE /* CommentCardWriter */ = {
 			isa = PBXGroup;
 			children = (
-				038A843C27AD4DD60060C8EE /* CommentCardWriterApp.swift */,
-				038A843E27AD4DD60060C8EE /* ContentView.swift */,
+				038A846627AD4DF40060C8EE /* Models */,
+				038A846727AD4DFC0060C8EE /* Views */,
 				038A844027AD4DD80060C8EE /* Assets.xcassets */,
+				038A843C27AD4DD60060C8EE /* CommentCardWriterApp.swift */,
 				038A844227AD4DD80060C8EE /* Preview Content */,
 			);
 			path = CommentCardWriter;
@@ -125,6 +138,27 @@
 				038A845927AD4DD80060C8EE /* CommentCardWriterUITestsLaunchTests.swift */,
 			);
 			path = CommentCardWriterUITests;
+			sourceTree = "<group>";
+		};
+		038A846627AD4DF40060C8EE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				038A846E27AD52D10060C8EE /* Student.swift */,
+				038A846A27AD4E500060C8EE /* ChooseSubject.swift */,
+				038A846C27AD4E7B0060C8EE /* Subject.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		038A846727AD4DFC0060C8EE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				038A846827AD4E310060C8EE /* SubjectChoiceView.swift */,
+				038A847027AD54BB0060C8EE /* SubjectView.swift */,
+				038A847327AD5ADD0060C8EE /* RootTabView.swift */,
+				038A847527AD5B2B0060C8EE /* CommentCardView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +291,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				038A843F27AD4DD60060C8EE /* ContentView.swift in Sources */,
+				038A847627AD5B2B0060C8EE /* CommentCardView.swift in Sources */,
+				038A847427AD5ADD0060C8EE /* RootTabView.swift in Sources */,
+				038A846F27AD52D10060C8EE /* Student.swift in Sources */,
+				038A847127AD54BB0060C8EE /* SubjectView.swift in Sources */,
+				038A846D27AD4E7B0060C8EE /* Subject.swift in Sources */,
+				038A846927AD4E310060C8EE /* SubjectChoiceView.swift in Sources */,
 				038A843D27AD4DD60060C8EE /* CommentCardWriterApp.swift in Sources */,
+				038A846B27AD4E500060C8EE /* ChooseSubject.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
