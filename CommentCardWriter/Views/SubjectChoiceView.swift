@@ -9,6 +9,7 @@ import SwiftUI
 
 struct SubjectChoiceView: View {
     @StateObject var student: Student
+    @StateObject var subjectsObject: ChooseSubject
     var body: some View {
         VStack{
             HStack{
@@ -22,8 +23,9 @@ struct SubjectChoiceView: View {
                 }
             }//end of H
             NavigationView{
-                List(student.subjectsChosen.subjects, id: \.self.name) { subject in
-                    SubjectView(subject: subject)
+                List(subjectsObject.subjects, id: \.self.name) { subject in
+                    NavigationLink(destination: SubjectView(subject: subject)){ Text(subject.name)
+                    }
                 }
             }//end of NV
         }//end of V
@@ -32,6 +34,7 @@ struct SubjectChoiceView: View {
 
 struct SubjectChoiceView_Previews: PreviewProvider {
     static var previews: some View {
-        SubjectChoiceView(student: Student())
+        let student = Student()
+        SubjectChoiceView(student: student, subjectsObject: student.subjectsChosen)
     }
 }

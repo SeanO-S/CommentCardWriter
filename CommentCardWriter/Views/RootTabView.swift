@@ -12,7 +12,8 @@ import SwiftUI
 struct RootTabView: View {
     var body: some View {
         TabView{
-            SubjectChoiceView(student: Student())
+            let student = Student()
+            SubjectChoiceView(student: student, subjectsObject: student.subjectsChosen)
                 .tabItem{
                     Image(systemName: "square.and.pencil")
                     Text("SCV")

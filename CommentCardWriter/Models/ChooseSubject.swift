@@ -7,13 +7,15 @@
 
 import Foundation
 
-class ChooseSubject {
+class ChooseSubject: ObservableObject {
     @Published var subjects: [Subject]
     private var numOfSubjects: Int
+    private var subjectToAdd: Subject
     
     func incNum() {
         numOfSubjects += 1
-        subjects.append(Subject(nm: "Subject\(numOfSubjects)", tpcs: ["None"]))
+        subjectToAdd = Subject(nm: "Subject\(numOfSubjects)", tpcs: ["None"])
+        subjects.append(subjectToAdd)
     }
     
     func decNum() {
@@ -28,5 +30,6 @@ class ChooseSubject {
     init(){
         subjects = []
         numOfSubjects = 0
+        subjectToAdd = Subject(nm: "Subject\(numOfSubjects)", tpcs: ["None"])
     }
 }
